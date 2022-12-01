@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="icon" href="./img/logo/logotrang.jpg" type="image/x-icon" />
+        
+        <title>Đăng ký - Cup Cake</title>
+
+        <!-- Icon css link -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="vendors/linearicons/style.css" rel="stylesheet">
+        <link href="vendors/flat-icon/flaticon.css" rel="stylesheet">
+        <link href="css/font reg-log.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Rev slider css -->
+        <link href="vendors/revolution/css/settings.css" rel="stylesheet">
+        <link href="vendors/revolution/css/layers.css" rel="stylesheet">
+        <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link href="vendors/animate-css/animate.css" rel="stylesheet">
+        
+        <!-- Extra plugin css -->
+        <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="vendors/magnifc-popup/magnific-popup.css" rel="stylesheet">
+        
+        <link href="css/trangchustyle.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Rev slider js -->
+        <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <!-- Extra plugin js -->
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/magnifc-popup/jquery.magnific-popup.min.js"></script>
+        <script src="vendors/datetime-picker/js/moment.min.js"></script>
+        <script src="vendors/datetime-picker/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>    
+        <script src="js/theme.js"></script>
+        <script src="./js/dangkyjs.js"></script>
+    </head>
+    <body class="background-login">
+        
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+        <!--================Main Header Area =================-->
+		<header class="main_header_area">
+			<div class="main_menu_area">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+						<a class="navbar-brand" href="trangchu.html">
+						<img src="./img/logo/1logo.jpg">
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="my_toggle_menu">
+                            	<span></span>
+                            	<span></span>
+                            	<span></span>
+                            </span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li>
+									<a href="trangchu.html">Trang Chủ</a>
+								</li>
+                                <li class="dropdown submenu">
+								    <a href="gioithieu.html" >Giới Thiệu</a>
+                                </li>
+							<ul class="navbar-nav justify-content-end">
+								<li class="dropdown submenu">
+									<a href="lienhe.html">Liên Hệ</a>
+								</li>
+								<li class="dropdown submenu">
+									<a href="dangnhap.html">Đăng Nhập</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+        <!--================End Main Header Area =================-->
+  <div class="register">
+  <h2 class="active"> Đăng Ký </h2>
+  <form action="trangchu.html" method="get" id="nameform" name="fomrdk" onsubmit="return validateForm()" >
+    <input type="text" class="text" name="tendangnhap" value="" maxlength="30" id="tendangnhap" placeholder="Vui lòng nhập tên đăng nhập">
+    <span>Tên đăng nhập:</span>
+
+    <input type="password" class="text" name="matkhau" id="matkhau" placeholder="Vui lòng nhập mật khẩu">
+    <span>Mật khẩu: </span>
+   
+    <input type="password" class="text" name="xnmatkhau" id="xnmatkhau" placeholder="Nhập lại mật khẩu">
+    <span>Xác nhận lại mật khẩu: </span>
+
+    <input type="text" class="text" name="email" id="email" value="" maxlength="50" placeholder="abcd@gmail.com" >
+     <span>Email: </span> 
+
+     <input type="text" class="text" name="SDT" id="SDT" value="" maxlength="10" placeholder="Vui lòng nhập SĐT">
+     <span>SĐT: </span>
+
+     <input type="text" class="text" name="diachi" value="" maxlength="100" placeholder="Vui lòng nhập địa chỉ">
+     <span>Địa chỉ: </span>
+
+     <button type="submit" class="dangky">Đăng Ký</button>
+  </form>
+  </div>
+    </body>
+</html>

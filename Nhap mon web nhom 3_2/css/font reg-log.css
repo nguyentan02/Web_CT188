@@ -1,0 +1,133 @@
+body{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  
+
+}
+
+.register{
+  position: relative;
+  height: 540px;
+  width: 450px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 40px 40px;
+  background-color: #252525e5;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 30px 100px -7px #000;
+  color: #fff;
+}
+
+.login{
+  position: relative;
+  height: 320px;
+  width: 450px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 40px 40px;
+  background-color: #252525e5;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 30px 100px -7px #000;
+  color: #fff;
+}
+
+form {
+  padding-top: 20px;
+}
+
+.active {
+  border-bottom: 1px solid rgb(223, 183, 6);
+}
+
+h2 {
+  padding-left: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 100;
+}
+
+span {
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  top: -50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.text {
+  border: none;
+  width: 100%;
+  font-size: 13px;
+  padding: 10px 20px;
+  display: block;
+  height: 15px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.116);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.text:focus {
+  outline: 0;
+  border: 2px solid rgba(255, 255, 255, 0.384);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(223, 183, 6);
+}
+
+h2,
+span{
+  color: #fff;
+  margin-left: 20px;
+  font-size: 14px;
+  margin: auto;
+  margin-top: 3px;
+}
+
+
+.dangky {
+  letter-spacing: 1px;
+  background-color: rgb(223, 183, 6);
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  height: px;
+  border-radius: 20px;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dangky:hover {
+  background: rgb(223, 183, 6);
+  box-shadow: 0px 5px 20px -5px rgba(223, 183, 6, 0.425);
+  cursor: pointer;
+}
+
+.dangky:focus {
+  outline: none;
+}
+
+
+.background-login{
+  background-image: url(../img/.jpg);
+}
