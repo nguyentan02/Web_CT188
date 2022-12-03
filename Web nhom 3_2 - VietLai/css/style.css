@@ -25,12 +25,26 @@ a {
 .top_header_area {
     background: rgb(223, 183, 6);
     height: 50px;
+    position: relative;
+}
 
+.top_header_area:before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px dashed black;
+    position: absolute;
+    left: 0px;
+    bottom: 4px;
+}
+
+.form-input {
+    padding-left: 15px;
 }
 
 .float-right {
     float: right;
     padding: 10px 25px;
+    position: relative;
 }
 
 .search-input {
@@ -38,6 +52,7 @@ a {
     border-radius: 20px;
     font-size: 16px;
     line-height: 26px;
+    padding-left: 2px;
 }
 
 .cart-icon {
@@ -64,6 +79,16 @@ a {
 
 .main_menu_area {
     background: black;
+    position: relative;
+}
+
+.main_menu_area:before {
+    content: "";
+    width: 100%;
+    border-bottom: 1px dashed goldenrod;
+    position: absolute;
+    left: 0px;
+    bottom: 4px;
 }
 
 .header__nav {
@@ -86,9 +111,21 @@ a {
     color: white;
 }
 
+.float-right:before {
+    content: "";
+    width: 1px;
+    height: 20px;
+    background: #131111;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 .header__nav__list li a::before {
-    display: none;
+    /* display: none; */
     content: "";
     width: 25px;
     height: 2px;
